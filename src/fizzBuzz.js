@@ -1,4 +1,4 @@
-function FizzBuzz(){};
+function FizzBuzz(){}
 
 FizzBuzz.prototype.play = function(num) {
   if (num % 15 === 0) {
@@ -10,4 +10,4 @@ FizzBuzz.prototype.play = function(num) {
   } else {
     return num;
   }
-}
+};
